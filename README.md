@@ -293,11 +293,7 @@ window.customElements.define('input-sla', inputSla);
 ```
 
 # Criando um elemento reativo
-Falamos muito sobre o que o lit faz, mas apresentamos apenas dois componentes simples. Não vamos fazer um trabalho gigante pra complicar muito a cabeça de voces, mas vamos fazer um elemento de reação interna - que é uma palinha do que o lit pode fazer -, para ao menos demonstrar um pouco de tudo isso. <br>
-Para isso, escolham um dos dois:
-- Um botão que troca de cor ao clicá-lo
-- Cronômetro
-- *!!!!!!!!!!!!!!!!ta pra vir, vamo ve*
+Falamos muito sobre o que o lit faz, mas apresentamos apenas dois componentes simples. Não vamos fazer um trabalho gigante pra complicar muito a cabeça de voces, mas vamos fazer um elemento de reação interna - que é uma palinha do que o lit pode fazer -, para ao menos demonstrar um pouco de tudo isso. 
 
 ## Botão que troca de cor
 Nas propriedades estáticas, precisamos de três coisas: 
@@ -413,4 +409,3 @@ export class TrocaCor extends LitElement {
 
 window.customElements.define('botao-cores', TrocaCor);
 ```
-## Cronômetro
